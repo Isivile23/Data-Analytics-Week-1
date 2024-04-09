@@ -99,3 +99,10 @@ The work of analytics is intellectually and computionally demanding.
 ### Data Governance
 
 Data governance program ensure that organization has high-quality data and is able to effectively control that data.
+
+#### Analytics Tools
+
+Software helps analysts work through each one of the phases of the analytics process. These tolls automate much heavy lifting data analysis, improving the analysts ability to acquire, clean, manipulate, visualize, and analyze data. Th
+
+* Microsoft Excel
+* Google Sheets
