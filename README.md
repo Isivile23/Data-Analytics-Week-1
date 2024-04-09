@@ -1,6 +1,7 @@
 # Data Analytics Week-1
 
 ## Module 1: Basics of Data 
+## Chapter 1: The Data Analyst
 
 Analytics is the heart of modern business.
 The role of a data analyst is to transform raw data into actionable insights that guide decision-making processes within an organization.
@@ -106,3 +107,21 @@ Software helps analysts work through each one of the phases of the analytics pro
 
 * Microsoft Excel
 * Google Sheets
+
+## Chapter 2: Understanding Data
+
+### Exploring Data Types
+
+* A data element is an attribute about a person, place, or thing containing data within a range of values. Data elements also describe characteristics of activities, including orders, transaction
+* Individual data types support structured, unstructured, and semi-structured data.
+
+#### Tabular Data
+
+* Tabular data is data organized into a table, made up of columns and rows.
+* A table represents information aboout single topic.
+* Spreadsheets, including Microsoft Excel, Google sheets, and Apple numbers, are practical tools for representing tabular data. A rational database management system (RDMS), commonly called a database, extends the tabular model.
+* Instead of having all data in a single table, a database organizes related data across multiple tables.
+* 
+
+
+  
