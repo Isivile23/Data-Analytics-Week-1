@@ -102,7 +102,7 @@ Data governance program ensure that organization has high-quality data and is ab
 
 #### Analytics Tools
 
-Software helps analysts work through each one of the phases of the analytics process. These tolls automate much heavy lifting data analysis, improving the analysts ability to acquire, clean, manipulate, visualize, and analyze data. Th
+Software helps analysts work through each one of the phases of the analytics process. These tolls automate much heavy lifting data analysis, improving the analysts ability to acquire, clean, manipulate, visualize, and analyze data. They also provide invaluable assistance in reporting and communicating results.
 
 * Microsoft Excel
 * Google Sheets
