@@ -62,5 +62,19 @@ Highest-demand occupations:
 * Software and applications developers
 * Internet of Things (IoT) specialists
 
+### The Analytics Process
+
+Process that analysts move through:
+
+* Data Acquisition
+* Cleaning and Manipulation
+* Analysis
+* Visualization
+* Reporting and Communication
+
+### The Analytics Process is Iterative
+
+The analytics process is inherently iterative. It is not linear, one-time thing you do to data. It's more like a loop or cycle where you constantly revisit previous steps and refine your approach based on what you learn.
+
 
 
