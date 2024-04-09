@@ -76,5 +76,15 @@ Process that analysts move through:
 
 The analytics process is inherently iterative. It is not linear, one-time thing you do to data. It's more like a loop or cycle where you constantly revisit previous steps and refine your approach based on what you learn.
 
+### Analytics Techniques
+
+Analysts use a variety of tecniques to draw conclusions from data at their disposal.
+
+Major categories of analytics techniques:
+
+* Descriptive Analytics
+* Predictive Analytics
+* Prescritive Analytics
+
 
 
