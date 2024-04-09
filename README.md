@@ -82,8 +82,11 @@ Analysts use a variety of tecniques to draw conclusions from data at their dispo
 
 Major categories of analytics techniques:
 
-* Descriptive Analytics
-* Predictive Analytics
+* Descriptive Analytics: is a crucial first step in data analysis journey. It provides a foundational understanding of your data before diving into more complex techniques like predictive or prescriptive anallytics. It summarises data to gain insights into patterns, trends, and relationships. It focuses on what happened in the past and identifying trens and patterns within your data.
+
+* Predictive Analytics:
+
+  
 * Prescritive Analytics
 
 
