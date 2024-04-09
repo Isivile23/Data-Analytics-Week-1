@@ -88,5 +88,12 @@ Major categories of analytics techniques:
 
 * Prescritive Analytics: is a powerful tool that can transform data insights into concrete actions for achieving optimal outcomes.
 
+### Machine Learning, Artificial Intelligence,and Deep Learning
+
+The work of analytics is intellectually and computionally demanding.
+
+* Artificial intelligence (AI): includes any type of technique where you are attempting to get a computer system to imitate human behavior.
+* Machine Learning: is a subset of AI techniques. ML techniques attempt to apply statistics to data problems in an effort to discover new knowledge. ML techniques are AI techniques designed to learn.
+* Deep Learning: is a further subdivision of machine learning that uses quite complex techniques, known as neural networks, to discover knowledge in a particular way. It is a highly specialized subfield of machine learning that is most commonly used for image, video, and sound analysis.
 
 
