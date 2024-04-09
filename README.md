@@ -37,4 +37,12 @@ The role of a data analyst is to transform raw data into actionable insights tha
 * Keeping up-to-date with the latest industry trends, tools, and technologies in data analysis.
 * Adapting to new types of data and analytical methods as the organization's needs evolve.
 
+### World of Analytics
+
+Three major pillars that have come together at this moment to allow analytics program to thrive:
+
+* Data
+* Storage
+* Computing Power
+
 
