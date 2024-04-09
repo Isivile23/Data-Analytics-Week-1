@@ -86,7 +86,7 @@ Major categories of analytics techniques:
 
 * Predictive Analytics: aims to forecast future outcomes based on historical data and statistical algorithms. It involves use of techniques such as regression analysis, machine learning, and data mining to identify patterns and trends that can help predict future events or behaviors. It enables organizations to anticipate potential scenarios and make proactive decisions to optimize outcomes.
 
-* Prescritive Analytics: 
+* Prescritive Analytics: is a powerful tool that can transform data insights into concrete actions for achieving optimal outcomes.
 
 
 
