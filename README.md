@@ -96,4 +96,6 @@ The work of analytics is intellectually and computionally demanding.
 * Machine Learning: is a subset of AI techniques. ML techniques attempt to apply statistics to data problems in an effort to discover new knowledge. ML techniques are AI techniques designed to learn.
 * Deep Learning: is a further subdivision of machine learning that uses quite complex techniques, known as neural networks, to discover knowledge in a particular way. It is a highly specialized subfield of machine learning that is most commonly used for image, video, and sound analysis.
 
+### Data Governance
 
+Data governance program ensure that organization has high-quality data and is able to effectively control that data.
