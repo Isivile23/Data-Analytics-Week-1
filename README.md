@@ -130,7 +130,21 @@ Software helps analysts work through each one of the phases of the analytics pro
 * Structured data is what typically comes to mind when looking at a spreadsheet.
 * With clearly defined column headings, spreadsheets are easy to work with and understand.
 * In a spreadsheet, cells are where columns and rows intersect.
-  
+
+#### Character
+
+* The character data type limits data entry to only valid character.
+* Characters can include the alphabet that might see on your keyboard, as well as numbers.
+* Alphanumeric is most widely used data type for storing character-based data.
+* Alphanumeric is appropriate when a data element consist of both numbers and letters.
+* Alphanumeric data type is deal for storing product stock-keeping units (SKUs).
+* It is common in the retail clothing space to have a unique SKU for each item available for sale.
+
+##### Character Sets
+
+* Database use character sets to map, or encode, data and store it digitally.
+* The ASCII encoding standard based on the U.S English alphabet.
+* ASCII accomodates both the upper and lower English alphabet and numbers, mathematical operators, and symbols.
 
 
 
