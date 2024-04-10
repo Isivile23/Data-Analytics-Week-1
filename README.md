@@ -163,6 +163,7 @@ Software helps analysts work through each one of the phases of the analytics pro
 ![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/96fab49a-c916-44a6-b9ce-8f04ad0618e2)
 
 * Binary data types store information in raw bytes, but they can represent structured or unstructured data.
+* It supports any type of digital file you may have, from Microsoft Excel spreadsheets to digital photographs.
 * File size limits are set by storage system, not the data type its self.
 * When choosing a binary data type, consider the expected file size, performance needs, and storage efficiency.
 
