@@ -121,7 +121,10 @@ Software helps analysts work through each one of the phases of the analytics pro
 * A table represents information aboout single topic.
 * Spreadsheets, including Microsoft Excel, Google sheets, and Apple numbers, are practical tools for representing tabular data. A rational database management system (RDMS), commonly called a database, extends the tabular model.
 * Instead of having all data in a single table, a database organizes related data across multiple tables.
-* 
+* Oracle, Microsoft SQL Server, MySQL, and PostgreSQL are examples of database software.
+* Tabular data is the concept that underpins both spreadsheets and relational databases.
+
+
 
 
   
