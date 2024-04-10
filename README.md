@@ -146,6 +146,13 @@ Software helps analysts work through each one of the phases of the analytics pro
 * The ASCII encoding standard based on the U.S English alphabet.
 * ASCII accomodates both the upper and lower English alphabet and numbers, mathematical operators, and symbols.
 
+#### Strong and Weak Typing
 
+* Data types define values placed in column.
+* Strong typing is when technology rigidly enforces data type.
+* A database column defined as numeric only accepts numerical values.
+* Weak typing loosely enforces data types.
+* Spreadsheets use weak typing to help make is easier for people to accomplish their work.
+* Spreadsheets default to an "automatic" data type and accomodate practically any value
 
   
