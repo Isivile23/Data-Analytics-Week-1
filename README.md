@@ -167,3 +167,10 @@ Software helps analysts work through each one of the phases of the analytics pro
 * File size limits are set by storage system, not the data type its self.
 * When choosing a binary data type, consider the expected file size, performance needs, and storage efficiency.
 
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/cf868f88-6d8d-46db-9c7a-fdfbd81009e4)
+
+* Audio can come from a variety of sources.
+* 
+
+
+
