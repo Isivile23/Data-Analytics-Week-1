@@ -124,6 +124,13 @@ Software helps analysts work through each one of the phases of the analytics pro
 * Oracle, Microsoft SQL Server, MySQL, and PostgreSQL are examples of database software.
 * Tabular data is the concept that underpins both spreadsheets and relational databases.
 
+#### Structured Data Types
+
+* Structured data is tabular in nature and organized into rows and columns.
+* Structured data is what typically comes to mind when looking at a spreadsheet.
+* With clearly defined column headings, spreadsheets are easy to work with and understand.
+* In a spreadsheet, cells are where columns and rows intersect.
+  
 
 
 
