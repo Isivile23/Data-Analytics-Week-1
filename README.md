@@ -155,4 +155,14 @@ Software helps analysts work through each one of the phases of the analytics pro
 * Spreadsheets use weak typing to help make is easier for people to accomplish their work.
 * Spreadsheets default to an "automatic" data type and accomodate practically any value
 
-  
+#### Unstructured Data Types
+
+* Unstructured data is any type of data thta does not fit neatly into the tabular model.
+* Examples of unstructured data include digital images, audio recordings, video recordings, and open-ended survey responses.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/96fab49a-c916-44a6-b9ce-8f04ad0618e2)
+
+* Binary data types store information in raw bytes, but they can represent structured or unstructured data.
+* File size limits are set by storage system, not the data type its self.
+* When choosing a binary data type, consider the expected file size, performance needs, and storage efficiency.
+
