@@ -230,6 +230,15 @@ Software helps analysts work through each one of the phases of the analytics pro
 
 * Unstructured data qualitative, describing the characteristics of an event or an object.
 * Images, phrases, audio or video recordingd, and descriptive text are all examplea of unstructured data.
-* 
+* Machine data is common source of unstructured data.
+* Machine data has various sources, including Internet of Things, smartphones, tablets, personal computers, and servers.
+
 ##### Semi-Structured Data
+
+* Semi-structured data is data that has structure and that is not tabular.
+* Email is a  well-known example of semi-structured data.
+* Every email message has structural components, including recipient, sender, subject, date, and time.
+
+#### Common File Formats
+
 
