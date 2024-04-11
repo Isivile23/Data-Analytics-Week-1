@@ -204,5 +204,13 @@ Software helps analysts work through each one of the phases of the analytics pro
 * While whole number represents discrete data, continuous data typically need a decimal point.
 * Qualitative is discrete, but quantitative data can be either discrete or continuous data.
 
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/feb94290-55ae-4e5f-acfb-4b6391468c23)
+
+* Text data with a known, finite number of categories is categorical.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/75017b68-c785-4757-b51a-91593568adf2)
+
+
+
 
 
