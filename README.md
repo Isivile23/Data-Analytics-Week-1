@@ -241,4 +241,5 @@ Software helps analysts work through each one of the phases of the analytics pro
 
 #### Common File Formats
 
+##### Text Files
 
