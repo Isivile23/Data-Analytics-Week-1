@@ -182,7 +182,18 @@ Software helps analysts work through each one of the phases of the analytics pro
 * Each digital picture is a piece of unstructured data.
 * Storing images in a database requires a data type designed to handle raw binary, such as varbinary or BLOB.
 
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/d439e15a-a23a-4c0b-b73c-7db49f1f3ea0)
 
+* Video data is growing at a similar pace to image data.
+* In the consumer space, people upload videos to YouTube, Instagram, and TikTok everyday.
+
+#### Categories of Data
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/1fdcf854-195e-4118-a536-e2318650b343)
+
+* Regardless od structure, data is either  quantitative or qualitative.
+* Quantitative data consists of numeric values. Data elements whose values comes from counting or measuring are quantitative.
+* Qualitative data consists of frequent text values. Data elements whose values describe characteristics, traits, and attitudes are all qualitative.
 
 
 
