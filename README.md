@@ -222,6 +222,8 @@ Software helps analysts work through each one of the phases of the analytics pro
 
 ##### Structured Data
 
+* Tabular is a structured data, with values stored in a consistent, defined manner, organized into columns and rows.
+
 ##### Unstructured Data
 
 ##### Semi-Structured Data
