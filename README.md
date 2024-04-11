@@ -175,6 +175,15 @@ Software helps analysts work through each one of the phases of the analytics pro
 * To save space, it can be compressed.
 * No matter the format, storing audio requires specific types for raw binary information.
   
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/35aa7574-022d-4f83-98e5-f21d19f861ea)
+
+* Image data can have a variety of sources.
+* People take more than 1 trillion photographs every calender year, fuelled by the ubiquity of camera-enabled smartphones and relatively low storage costs.
+* Each digital picture is a piece of unstructured data.
+* Storing images in a database requires a data type designed to handle raw binary, such as varbinary or BLOB.
+
+
+
 
 
 
