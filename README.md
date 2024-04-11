@@ -195,6 +195,10 @@ Software helps analysts work through each one of the phases of the analytics pro
 * Quantitative data consists of numeric values. Data elements whose values comes from counting or measuring are quantitative.
 * Qualitative data consists of frequent text values. Data elements whose values describe characteristics, traits, and attitudes are all qualitative.
 
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/71317b23-f004-4c24-b395-6b983d95596f)
+
+* Numeric data comes into different forms: discrete and continuos.
+* 
 
 
 
