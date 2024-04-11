@@ -218,4 +218,11 @@ Software helps analysts work through each one of the phases of the analytics pro
 
 ![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/b2258563-164b-4f87-a7a0-85077d828feb)
 
+#### Common Data Structures
+
+##### Structured Data
+
+##### Unstructured Data
+
+##### Semi-Structured Data
 
