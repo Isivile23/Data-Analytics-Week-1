@@ -210,7 +210,11 @@ Software helps analysts work through each one of the phases of the analytics pro
 
 ![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/75017b68-c785-4757-b51a-91593568adf2)
 
-
+* Dimensional modeling is an approach to arranging data to facilitate analysis.
+* Dimensional modeling organizes data into fact tables and dimension tables.
+* Fact tables store measurement data that is of interest to a business.
+* A table holding appointment data would be called fact table.
+* Dimensions are tables that contain data about fact.
 
 
 
