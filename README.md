@@ -170,7 +170,11 @@ Software helps analysts work through each one of the phases of the analytics pro
 ![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/cf868f88-6d8d-46db-9c7a-fdfbd81009e4)
 
 * Audio can come from a variety of sources.
-* 
+* Audio is everywhere, from customer service calls to avalanche detection systems
+* This data is captured with microphones, digitized, and stored.
+* To save space, it can be compressed.
+* No matter the format, storing audio requires specific types for raw binary information.
+  
 
 
 
