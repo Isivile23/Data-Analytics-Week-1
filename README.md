@@ -223,8 +223,13 @@ Software helps analysts work through each one of the phases of the analytics pro
 ##### Structured Data
 
 * Tabular is a structured data, with values stored in a consistent, defined manner, organized into columns and rows.
+* Data is consistent when all entries in a column contain the same type of value.
+* Structured data also make summarization easy.
 
 ##### Unstructured Data
 
+* Unstructured data qualitative, describing the characteristics of an event or an object.
+* Images, phrases, audio or video recordingd, and descriptive text are all examplea of unstructured data.
+* 
 ##### Semi-Structured Data
 
