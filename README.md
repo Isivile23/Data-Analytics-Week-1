@@ -198,7 +198,11 @@ Software helps analysts work through each one of the phases of the analytics pro
 ![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/71317b23-f004-4c24-b395-6b983d95596f)
 
 * Numeric data comes into different forms: discrete and continuos.
-* 
+* Discrete data represents measurements that can't be subdivided.
+* It is useful when you have things you want to count.
+* Instead of counting, when you measure things like height and weight, you are collecting continuous data.
+* While whole number represents discrete data, continuous data typically need a decimal point.
+* Qualitative is discrete, but quantitative data can be either discrete or continuous data.
 
 
 
