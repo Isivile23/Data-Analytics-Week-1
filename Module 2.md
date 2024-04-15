@@ -38,3 +38,8 @@ Relational databases excel at storing and processing structured data. The need t
   * Consistency
   * Security
   * Case of Backup
+
+* Schema is an ERD with additional details needed to create a database.
+* An associative table is both a table and a relationship.
+* A primary key is one or more attributes that uniquely identify a specific row in a table.
+* A foreign key is one or more columns in one table that points to corresponding columns in a related table.
