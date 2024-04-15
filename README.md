@@ -243,5 +243,25 @@ Software helps analysts work through each one of the phases of the analytics pro
 
 ##### Text Files
 
+* Textfiles are one of the most commonly used data file format.
+* They consist of plain text and are limited in scope to alphanumeric data.
+* The reasons why textfiles are so widely adopted is their ability to be opened regardless of platform or operating system withou needing a proprietary piece of software.
+* You can easily open a textfile.
+* Textfiles are also refered as flat files.
+* A unique character known as delimiter facilitates transmitting structured data via a text file.
+* Delimiter is the character that separates individual fields, it can be any character.
+* When a file comma-delimited, it is known as comma-separated values (CSV) file.
+* When a file is tab-delimited, it is called a tab-separated values (TSV) file.
 
+##### Fixed-width Files
 
+* Fixed-width files are more laborious to create since they require a few extra steps.
+
+##### JavaScript Object Notation
+
+* JSON is an open standard file format, designed to add structured to a text file without incurring significant overhead.
+* JSON is easily readable by peopla and easily parsed by modern programming languages.
+* Languages such as Python, R, and Go have libraries containing functions that facilitate reading and writing JSON files.
+* 
+
+ 
