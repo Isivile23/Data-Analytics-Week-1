@@ -16,6 +16,10 @@ Relational databases excel at storing and processing structured data. The need t
 * Relational model allows us to describe how entieies connect or relate to each other.
 * Entity Relationship Diagram (ERD) is a visual artifact of data modeling process. It shows connection between related entities.
 * Cardinality refers to the relationship between two entities, showing how many instances of one entity relate to instances in another entity.
+  Type of relationship cardinality:
+  * One-to-One
+  * One-to- Many
+  * Many-to-Many
 * A unary relationship is when an entity has a connection with itself.
 * A binary relationship connects two entities.
 * A ternary relationship connects two entities.
