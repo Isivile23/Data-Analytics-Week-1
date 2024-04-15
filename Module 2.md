@@ -20,3 +20,15 @@ Relational databases excel at storing and processing structured data. The need t
 * A binary relationship connects two entities.
 * A ternary relationship connects two entities.
 * Binary relationships are the most easy to explore, whereas unary and ternary are comparatively complex and rare.
+
+### Relational Databases
+
+* Relational databases are a piece of software that let you make an operational system out of an ERD.
+* You start with a relational model and create a physical design.
+* Relational entities correspond to database tables, and entity attributes correspond to table column.
+
+  Benefifs of Relational Databases:
+  
+  * Consistency
+  * Security
+  * Case of Backup
