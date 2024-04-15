@@ -67,3 +67,7 @@ Relational databases excel at storing and processing structured data. The need t
 ![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/117e1b2f-d2fe-4ed1-a0bd-24e4edea2797)
 
 * Column-family databases use an index to identify data in groups of related columns.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/6e58ad95-e2ea-4cb8-8b31-466dacfe332d)
+
+* Graph databases specializes in exploring relationships between pieces of data.
