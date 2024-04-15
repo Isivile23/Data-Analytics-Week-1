@@ -10,13 +10,13 @@ The role of a data analyst is to transform raw data into actionable insights tha
 
 #### Data Collection and Preparation:
 
-* Sourcing daata from various channels, including database, spreadsheets, and external sources,
+* Sourcing data from various channels, including database, spreadsheets, and external sources,
 * Cleaning and organizing data to ensure it is accurate, consistent, and ready for analysis.
 
 #### Data analysis:
 
 * Make use of statistical methods, machine learning techniques, or other analytic tools to interpret data,
-* Identify trends, patyterns, and correlations that might not be immediately obvious.
+* Identify trends, patterns, and correlations that might not be immediately obvious.
 
 #### Data Visualization and Storytelling:
 
