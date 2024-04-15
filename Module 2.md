@@ -13,3 +13,10 @@ Relational databases excel at storing and processing structured data. The need t
 * In 1969, IBM's Edgar F. Codd developed the relational model for database management.
 * The relational model builds on the concept of tabular data.
 * In the relational model, an entity contains data for a single subject.
+* Relational model allows us to describe how entieies connect or relate to each other.
+* Entity Relationship Diagram (ERD) is a visual artifact of data modeling process. It shows connection between related entities.
+* Cardinality refers to the relationship between two entities, showing how many instances of one entity relate to instances in another entity.
+* A unary relationship is when an entity has a connection with itself.
+* A binary relationship connects two entities.
+* A ternary relationship connects two entities.
+* Binary relationships are the most easy to explore, whereas unary and ternary are comparatively complex and rare.
