@@ -43,3 +43,27 @@ Relational databases excel at storing and processing structured data. The need t
 * An associative table is both a table and a relationship.
 * A primary key is one or more attributes that uniquely identify a specific row in a table.
 * A foreign key is one or more columns in one table that points to corresponding columns in a related table.
+
+### Nonrelational Databases
+
+* A nonrelational database does not have a predefined structure based on tabular data.
+* The result is a highly flexible approach to storing data.
+* Data validation happens in code, as opposed to being done in the database.
+
+ Examples of databases include:
+
+ ![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/de1c8bd5-ae7c-4a2a-ad1a-bcbccb236169)
+
+ * A key-value database is one of the simplest ways of storing data.
+ * Data is stored as a collection of keys and their corresponding values.
+ * A key must be globally unique across the entire database.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/14f7f13b-023c-4c89-9289-23092729eb7d)
+
+* A document database is similar to a key-value database, with additional restrictions.
+* In a key-value database, the value can contain anything.
+* With a document database, the value is restricted to a specific structured format.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/117e1b2f-d2fe-4ed1-a0bd-24e4edea2797)
+
+* Column-family databases use an index to identify data in groups of related columns.
