@@ -257,11 +257,21 @@ Software helps analysts work through each one of the phases of the analytics pro
 
 * Fixed-width files are more laborious to create since they require a few extra steps.
 
-##### JavaScript Object Notation
+##### JavaScript Object Notation (JSON)
 
 * JSON is an open standard file format, designed to add structured to a text file without incurring significant overhead.
 * JSON is easily readable by peopla and easily parsed by modern programming languages.
 * Languages such as Python, R, and Go have libraries containing functions that facilitate reading and writing JSON files.
-* 
+
+##### Extensible Markup Language (XML)
+
+* XML is a markup language that facilitates structuring data in a text file.
+* While conceptually similar to JSON, XML incurs more overhead because it makes extensive use of tags.
+
+##### HyperText Markup Language (HTML)
+
+* HTML is a markup language for documents designed to be displayed in a web browser.
+* HTML pages serve a foundation for how people interact with World Wide Web.
+
 
  
