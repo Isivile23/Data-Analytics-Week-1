@@ -144,3 +144,10 @@ Databases tend to support two major categories of ddata processing: Online Trans
 * The initial load happens right before the data warehouse becomes available for use.
 * When moving data between systems, you have to balance the speed and complexity of the overall operation.
 
+### Data Collection Methods
+
+#### Application Programming Interfaces (APIs)
+
+* API acts as an intermediary between two software applications, allowing them to communicate and exchange data with each other.
+* Its essentially a set of rules and specifications that define how applications can request and receive information from each other.
+  
