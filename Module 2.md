@@ -89,3 +89,7 @@ Databases tend to support two major categories of ddata processing: Online Trans
 * First normal form (1NF) is when every row in a table is unique and every column contains a unique value.
 * Second normal form (2NF) starts where 1NF leaves off. 2NF applies an additional rule stating that all nonprimary key values must depend on the entire primary key.
 * Third normal form (3NF) builds up 2NF by adding a rule stating all columns must depend on only the primary key.
+
+### Online Analytical Processing (OLAP)
+
+* OLAP systems concentrates on analyzing large data sets to identify trends, patterns, and insights for informed decision-making. It is tasks like sales analysis, or market research.
