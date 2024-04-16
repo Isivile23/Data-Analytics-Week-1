@@ -82,6 +82,7 @@ Databases tend to support two major categories of ddata processing: Online Trans
 * Example transactions include booking a flight reservation, ordering something online, or executing stock trade.
 * While the number of transactions a system handles on a given day can be very high, individual transactions procee small amounts of data.
 * OLTP systems balance the ability to write and read data efficiently.
+* Employs normalized ralational database schemas to minimize data redundancy and optimize querying for specific data elements. 
 
 ### Normalization
 
@@ -92,4 +93,5 @@ Databases tend to support two major categories of ddata processing: Online Trans
 
 ### Online Analytical Processing (OLAP)
 
-* OLAP systems concentrates on analyzing large data sets to identify trends, patterns, and insights for informed decision-making. It is tasks like sales analysis, or market research.
+* OLAP systems concentrates on analyzing large data sets to identify trends, patterns, and insights for informed decision-making. It's used for tasks like sales analysis, or market research.
+* Often utilize multidimensional data models (like star schema or snowflake) that pre-aggregate data for faster analytical queries. These models allow for efficient analysis across multiple dimensions (e.g., time, product, region).
