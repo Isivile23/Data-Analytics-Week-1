@@ -118,3 +118,7 @@ Databases tend to support two major categories of ddata processing: Online Trans
 * Dimensionality refers to the number of attributes a table has.
 * The greater the number of attributes, the higher the dimensionality.
 * A dimension table provides additional context around data in fact tables.
+
+## Handling Dimensionality
+
+
