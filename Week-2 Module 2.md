@@ -141,4 +141,6 @@ Databases tend to support two major categories of ddata processing: Online Trans
 
 * An initial load occurs the first time data is put into a data warehouse. After the initial load, each additional load is a delta load, also known as incremental load.
 * A delta load only moves changes between systems.
+* The initial load happens right before the data warehouse becomes available for use.
+* When moving data between systems, you have to balance the speed and complexity of the overall operation.
 
