@@ -139,4 +139,6 @@ Databases tend to support two major categories of ddata processing: Online Trans
 
 ### ETL Vendors
 
+* An initial load occurs the first time data is put into a data warehouse. After the initial load, each additional load is a delta load, also known as incremental load.
+* A delta load only moves changes between systems.
 
