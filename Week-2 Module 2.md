@@ -150,4 +150,18 @@ Databases tend to support two major categories of ddata processing: Online Trans
 
 * API acts as an intermediary between two software applications, allowing them to communicate and exchange data with each other.
 * Its essentially a set of rules and specifications that define how applications can request and receive information from each other.
-  
+
+#### Web Services
+
+* A web service is an API you can call via Hypertext Transfer Protocol (HTTP), the language of the World Wide Web.
+#### Web Scraping
+
+#### Human-in-the-Loop
+
+#### Surveys
+
+#### Survey Tools
+
+#### Observation
+
+#### Sampling
