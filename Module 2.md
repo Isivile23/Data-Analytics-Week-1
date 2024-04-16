@@ -113,12 +113,12 @@ Databases tend to support two major categories of ddata processing: Online Trans
 
 * A more complex snowflake-like structure with the fact table at the center and multiple levels of dimension tables radiating outwards. Dimension tables are further normalized to break down complex hierarchies into smaller, atomic tables.
 
-## Dimensionality
+### Dimensionality
 
 * Dimensionality refers to the number of attributes a table has.
 * The greater the number of attributes, the higher the dimensionality.
 * A dimension table provides additional context around data in fact tables.
 
-## Handling Dimensionality
+### Handling Dimensionality
 
 
