@@ -131,3 +131,12 @@ Databases tend to support two major categories of ddata processing: Online Trans
  * Transform: The second phase transforms the data. The goal is to reformat the data from its transactional structure to the data warehouse's analytical design.
  * Load: The purpose of the load phase is to ensure data gets into the analytical system as quickly as possible.
 
+* Extract, load, and transform (ELT) is a variant of ETL.
+* With ELT, data is extracted from a source database and loaded directly into a warehouse. Once the extract and load phases are complete, the transformation phase gets underway.
+* One key difference betweem ETL and ELT is the technical component performing the transformation.
+* With ETL, the data transformation takes place external to a relational database, using a programming language like Python.
+* ELT uses SQL and the power of relational database to reformat data.
+
+### ETL Vendors
+
+
