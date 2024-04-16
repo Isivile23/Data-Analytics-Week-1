@@ -71,3 +71,12 @@ Relational databases excel at storing and processing structured data. The need t
 ![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/6e58ad95-e2ea-4cb8-8b31-466dacfe332d)
 
 * Graph databases specializes in exploring relationships between pieces of data.
+
+## Data Use Cases
+
+Databases tend to support two major categories of ddata processing: Online Transactional Process (OLTP) and Online Analytical Processing (OLAP).
+
+### Online Transactional Processing (OLTP)
+
+* OLTP systems handle the transactions we encounter everyday.
+* Example transactions include booking a flight reservation, ordering something online, or executing stock trade.
