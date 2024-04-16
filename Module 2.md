@@ -80,3 +80,5 @@ Databases tend to support two major categories of ddata processing: Online Trans
 
 * OLTP systems handle the transactions we encounter everyday.
 * Example transactions include booking a flight reservation, ordering something online, or executing stock trade.
+* While the number of transactions a system handles on a given day can be very high, individual transactions procee small amounts of data.
+* OLTP systems balance the ability to write and read data efficiently.
