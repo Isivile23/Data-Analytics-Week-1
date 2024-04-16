@@ -95,3 +95,20 @@ Databases tend to support two major categories of ddata processing: Online Trans
 
 * OLAP systems concentrates on analyzing large data sets to identify trends, patterns, and insights for informed decision-making. It's used for tasks like sales analysis, or market research.
 * Often utilize multidimensional data models (like star schema or snowflake) that pre-aggregate data for faster analytical queries. These models allow for efficient analysis across multiple dimensions (e.g., time, product, region).
+
+### Schema Concepts
+
+* Transactional systems require highly normalized databases, whereas a denormalized design is more appropriate for analytical systems.
+* A data warehouse is a database that aggregates data from many transactional systems for analytical purposes.
+* Transactional data may come from systems that power the human resources, sales, marketing, and product divisions.
+* A data warehouse facilitates analytics across the entire company.
+* A data mart is a subset of data warehouse. Data warehouse serve the entire organization, whereas data mart focus on the needs of a particular department within the organization.
+* A data lake store a raw data in its native format instead of conforming to a relational database structure.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/e5fadbda-5b1a-462c-84da-e3bb4139df71)
+
+* A simple, star-like structure with a central fact table surrounded by dimension tables. The fact table stores the quantitative data (measures) relevant to analysis, often with foreign keys referencing the dimension tables. Dimension tables contain descriptive attributes (dimensions) that provide context for the fact table data.
+
+  ![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/5366043c-1564-4230-b665-098d8bc90ed8)
+
+* A more complex snowflake-like structure with the fact table at the center and multiple levels of dimension tables radiating outwards. Dimension tables are further normalized to break down complex hierarchies into smaller, atomic tables.
