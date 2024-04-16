@@ -82,3 +82,10 @@ Databases tend to support two major categories of ddata processing: Online Trans
 * Example transactions include booking a flight reservation, ordering something online, or executing stock trade.
 * While the number of transactions a system handles on a given day can be very high, individual transactions procee small amounts of data.
 * OLTP systems balance the ability to write and read data efficiently.
+
+### Normalization
+
+* Normalization is a process for structuring a database in a way that minimizes duplication of data.
+* First normal form (1NF) is when every row in a table is unique and every column contains a unique value.
+* Second normal form (2NF) starts where 1NF leaves off. 2NF applies an additional rule stating that all nonprimary key values must depend on the entire primary key.
+* Third normal form (3NF) builds up 2NF by adding a rule stating all columns must depend on only the primary key.
