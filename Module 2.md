@@ -121,4 +121,13 @@ Databases tend to support two major categories of ddata processing: Online Trans
 
 ### Handling Dimensionality
 
+## Data Acquisition Concepts
+
+### Integration
+
+* You can use a variety of methods to transfer data efficiently and effectively.
+* One approach is known as extract, transforn, and load (ETL). This method consists of three phases:
+ * Extract: In the first phase, you extract data from the source system and place it in a staging area. The goal of the extract is to move data from a relational database into a flat file as quickly as possible.
+ * Transform: The second phase transforms the data. The goal is to reformat the data from its transactional structure to the data warehouse's analytical design.
+ * Load: The purpose of the load phase is to ensure data gets into the analytical system as quickly as possible.
 
