@@ -109,6 +109,6 @@ Databases tend to support two major categories of ddata processing: Online Trans
 
 * A simple, star-like structure with a central fact table surrounded by dimension tables. The fact table stores the quantitative data (measures) relevant to analysis, often with foreign keys referencing the dimension tables. Dimension tables contain descriptive attributes (dimensions) that provide context for the fact table data.
 
-  ![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/5366043c-1564-4230-b665-098d8bc90ed8)
+ ![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/5366043c-1564-4230-b665-098d8bc90ed8)
 
 * A more complex snowflake-like structure with the fact table at the center and multiple levels of dimension tables radiating outwards. Dimension tables are further normalized to break down complex hierarchies into smaller, atomic tables.
