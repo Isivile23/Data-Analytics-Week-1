@@ -378,8 +378,20 @@ While indexing improves query speed, it slows down create, update, and delete ac
 * Data redundancy is a function of integrating multiple systems.
 * Root cause of data redundancy is an in appropriate database design.
 
+### Missing values 
 
+* Missing values occur when you expect an attribute to contain data but nothing is there.
+* Missing values are also known as null values.
+* A null value is the absence of a value.
+* To handle missing value, you first have to check for their existence.
+* SQL offers functions to check for null and functions that can replace a null with a user-specified value.
+* There similar functions in both Python and R.
 
+### Invalid Data 
+
+* Invalid data are values outside the valid range for a given attribute.
+* An invalid value violate a business rule instead of having an incorrect data type.
+* You have to understand the context of a system to determine whether or not a value is invalid.
 
 
 
