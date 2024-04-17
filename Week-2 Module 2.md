@@ -186,3 +186,118 @@ Databases tend to support two major categories of ddata processing: Online Trans
 
 * Regardless of the data acquisition approach, you may end up with more data than is practical to manipulate. Imagine you are doing analytics in an Internet-of-Things environment, in which 800 billion events occur daily. Though it is possible, ingesting and storing 800 billion records is a challenging task. Manipulating 800 billion records takes a lot of computing power.
 * Suppose you want to analyse one day's worth of data. In that case, the 800 billion records represent the total population, or the number of events, available. Since manipulating 800 billion records is unwieldy, you might collect a sample, or subset, of the overall population.
+
+## Working With Data
+
+* To turn a database design into an operational database ready to accept data, you use the Data Definition Language (DDL) components of SQL. DDL lets you create, modify, and delete tables and other associated database objects.
+* To generate insights, a productive analyst must be comfortable using the Data Manipulation Language (DML) capabilities of SQL to insert, modify, and retrieve information from databases.
+* While DDL manages the structure of database, DML manages data in the database.
+
+### Data Manipulation
+
+When manipulating data, one of four possible actions occurs:
+
+       * Create new data
+       * Read existing data
+       * Update existing data
+       * Delete existing data
+
+* The acronym CRUD (Create, Read, Update, Delete) is a handy way to remember these four operaton.
+
+  ![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/28b22259-6677-4c29-abbb-44c91a82e9d3)
+
+### SQL Considerations
+
+The keywords in SQL are case-insensitive. However, the case-sensitivity of column names and values depend on the database configuration.
+
+Consider the following query:
+
+Select Animal_Name, Breed_Name from Animal
+
+The previous query returns the same results as this query:
+
+SELECT Animal_Name, Breed_Name FROM Animal
+
+SQL can also span multiple lines. For example, rewriting the previous query as follows will return identical results:
+
+SELECT Animal_Name, Breed_Name
+
+FROM  Animal
+
+How a query appears is a function of organizational conventions. Factors that influence convention include database configuration, query efficiency, and how easy it is for people to read and understand the query.
+
+### Filtering
+
+Examining a large table in its entirety provides insight into the overall population. To answer questions that an organization's leadership has typically requires a subset of the overall data. Filtering is a way to reduce the data down to only the rows that you need.
+
+To filter data, you add a WHERE clause to a query. Note that the column you are filtering on does not have to appear in the SELECT clause. To retrieve the name and breed for only the dogs from Table 3.1, you modify the query as follows:
+
+SELECT Animal_Name, Breed_Name
+
+FROM  Animal
+
+WHERE Animal_Type = 'Dog'
+
+### Filtering and Logical Operators
+
+A query can have multiple filtering conditions. You need to use a logical operator to account for complex filtering needs. For example, suppose you need to retrieve the name and breed for dogs weighing more than 60 pounds. In that case, you can enhance the query using the AND logical operator, as follows:
+
+SELECT Animal_Name, Breed_Name
+
+FROM  Animal
+
+WHERE Animal_Type = 'Dog'
+
+AND  Weight> 60
+
+The AND operator evaluates the Animal_Type and Weight filters together, only returning records that match both criteria. OR is another frequently used logical operator. For example, suppose you want to see the name and breed for all dogs and any animals that weigh more than 10 pounds regardless of the animal type. The following query delivers the answer to that question:
+
+SELECT Animal_Name, Breed_Name
+
+FROM  Animal
+
+WHERE Animal_Type = 'Dog'
+
+OR   Weight> 10
+
+Complex queries frequently use multiple logical operators at the same time. It is good to use parentheses around filter conditions to help make queries easy for people to read and understand.
+
+Data warehouses often contain millions, billions, or even trillions of individual data records. Filtering data is essential to making effective use of these massive data stores.
+
+### Sorting
+
+When querying a database, you frequently specify the order in which you want your results to return. The ORDER BY clause is the component of a SQL query that makes sorting possible. Similar to how the WHERE clause performs, you do not have to specify the columns you are using to sort the data in the SELECT clause.
+
+For example, suppose you want to retrieve the animal and breed for dogs over 60 pounds, with the oldest dog listed first. The following query delivers the answer:
+
+SELECT  Animal_Name, Breed_Name
+
+FROM   Animal
+
+WHERE  Animal_Type = 'Dog'
+
+AND   Weight> 60
+
+ORDER BY Date_of_Birth ASC
+
+If you want to return the youngest dog first, you change the ORDER BY clause as follows:
+
+SELECT  Animal_Name, Breed_Name
+
+FROM   Animal
+
+WHERE  Animal_Type = 'Dog'
+
+AND   Weight> 60
+
+ORDER BY Date_of_Birth DESC
+
+The ASC keyword at the end of the ORDER BY clause sorts in ascending order whereas using DESC with ORDER BY sorts in descending order. If you are sorting on multiple columns, you can use both ascending and descending as appropriate. Both the ASC and DESC keywords work across various data types, including date, alphanumeric, and numeric.
+
+### Date Functions
+
+* Date Columns are frequently found in OLAP environments.
+* Date columns als appear in transactional systems.
+* Storing date information about an event facilitates analysis across time.
+* 
+
