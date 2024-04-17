@@ -1,4 +1,4 @@
-# Databases and Data Acquisition
+# Chapter 3: Databases and Data Acquisition
 ## Exploring Databases
 
 There are many different database options to choose from when an organization needs to store data. While many database products exist, they belong in one of two categories:
@@ -359,7 +359,7 @@ While indexing improves query speed, it slows down create, update, and delete ac
 * Execution Plan: An execution plan shows the details of how a database runs a specific query. Execution plans are extremely helpful in troubleshooting query performance issues. They provide additional information about how a query is spending its time. For example, an execution plan can tell you if a slow-running query uses a full table scan instead of an index scan. In this case, it could be that the query is poorly written and not using the existing indexes. It also could be that a column needs a new index. Looking at execution plans is an integral part of developing efficient queries. It is worth understanding the nuances of how to interpret execution plans for the database platform you use. If you need help understanding an execution plan, get in touch with your local database administrator.
 
 
-# Data Quality
+# Chapter 4: Data Quality
 
 ## Data Quality Challenges
 
