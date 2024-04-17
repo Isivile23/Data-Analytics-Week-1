@@ -156,6 +156,12 @@ Databases tend to support two major categories of ddata processing: Online Trans
 * A web service is an API you can call via Hypertext Transfer Protocol (HTTP), the language of the World Wide Web.
 #### Web Scraping
 
+* Web scraping is the process of automatically collecting information from the websites.
+* Its like scooping up data you find on the web instead of manually copying and pasting it.
+* Programmatic retrieval of data from a website is known as web scarping.
+* You can use software bots to scrap data from the website.
+* Many modern proramming languages, including Python and R, make it easy to create a web scraper.
+* Instead of using API or a web service, web scraper reads a web page similar to a web browser, such as Chrome, Safari, or Edge.
 #### Human-in-the-Loop
 
 #### Surveys
