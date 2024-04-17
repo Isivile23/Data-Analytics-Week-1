@@ -392,6 +392,8 @@ While indexing improves query speed, it slows down create, update, and delete ac
 * Invalid data are values outside the valid range for a given attribute.
 * An invalid value violate a business rule instead of having an incorrect data type.
 * You have to understand the context of a system to determine whether or not a value is invalid.
+* If two tables have a relationship but no foreign keys, the conditions for invalid character data exists.
+* Implementing relationships appropriately reduces the likelihood of invalid character data.
 
 
 
