@@ -154,6 +154,7 @@ Databases tend to support two major categories of ddata processing: Online Trans
 #### Web Services
 
 * A web service is an API you can call via Hypertext Transfer Protocol (HTTP), the language of the World Wide Web.
+  
 #### Web Scraping
 
 * Web scraping is the process of automatically collecting information from the websites.
@@ -164,10 +165,24 @@ Databases tend to support two major categories of ddata processing: Online Trans
 * Instead of using API or a web service, web scraper reads a web page similar to a web browser, such as Chrome, Safari, or Edge.
 #### Human-in-the-Loop
 
+* There are times when the data you seek exists only in people's minds. For example, you can extract the most popular and profitable motorcycling destination from your existing internal data. You can get weather information from an API packaged as a web service. You can glean insight into competitive pricing by scraping your competitors' websites. Even with all of these data sources, you may still want insight into how customers feel about the services you provide. 
 #### Surveys
+
+* One way to collect data directly from the customers is by conducting a survey.
 
 #### Survey Tools
 
+* Instead of designing a custom application to collect survey data, several survey products let you design complex surveys without worrying about building a database.
+* Qualtrics is a powerful tool for developing and administering surveys
+
 #### Observation
 
+* Observation is the act of collecting primary source data, from either people or machine.
+* Observational data can be qualitative or quantitative.
+* Collecting qualitative observational data leads to unstructured data challenges.
+* Quantitative obsevations are much easier to collect and interpret.
+
 #### Sampling
+
+* Regardless of the data acquisition approach, you may end up with more data than is practical to manipulate. Imagine you are doing analytics in an Internet-of-Things environment, in which 800 billion events occur daily. Though it is possible, ingesting and storing 800 billion records is a challenging task. Manipulating 800 billion records takes a lot of computing power.
+* Suppose you want to analyse one day's worth of data. In that case, the 800 billion records represent the total population, or the number of events, available. Since manipulating 800 billion records is unwieldy, you might collect a sample, or subset, of the overall population.
