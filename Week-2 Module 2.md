@@ -344,7 +344,8 @@ Common SQL aggregate functions:
 
 Factors to comsider when creating well-perfoming SQL:
 
-* Parametrization:
+* Parametrization: Whenever a SQL query executes, the database has to parse the query. Parsing translates the human-readable SQL into code the database understands. Parsing takes time and impacts how long it takes for a query to return data. Effective use of parameterization reduces the number of times the database has to parse individual queries.
+  
 * Indexing: A full table scan is like flipping through every page in a book to find a specific piece of data.For small tables, full table scans happen quickly. As data volumes increase, scanning the entire table takes a long time and is not efficient. To speed up query performance, you need a database index. A database index works like the index in the back of a book. Instead of looking at each page in a book to find what you are looking for, you can find a specific page number in the index and then go to that page.
 
 A database index can point to a single column or multiple columns. When running queries on large tables, it is ideal if all of the columns you are retrieving exist in the index. If that is not feasible, you at least want the first column in your SELECT statement to be covered by an index.
