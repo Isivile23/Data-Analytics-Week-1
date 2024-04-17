@@ -344,7 +344,18 @@ Common SQL aggregate functions:
 
 Factors to comsider when creating well-perfoming SQL:
 
-* Parametrization: 
+* Parametrization:
+* Indexing: A full table scan is like flipping through every page in a book to find a specific piece of data.For small tables, full table scans happen quickly. As data volumes increase, scanning the entire table takes a long time and is not efficient. To speed up query performance, you need a database index. A database index works like the index in the back of a book. Instead of looking at each page in a book to find what you are looking for, you can find a specific page number in the index and then go to that page.
+
+A database index can point to a single column or multiple columns. When running queries on large tables, it is ideal if all of the columns you are retrieving exist in the index. If that is not feasible, you at least want the first column in your SELECT statement to be covered by an index.
+
+If a query is running slowly, look at the indexes on the underlying tables. If you think a new index would help improve query performance, discuss it with a database administrator. The administrator will look at other factors that impact performance and will have the permissions to create an index if necessary.
+
+While indexing improves query speed, it slows down create, update, and delete activity. An indexing strategy needs to match the type of system the database supports, be it transactional or reporting.
+  
+* Data Subsets and Temporary Tables:It is possible to create a temporary table to make the data more manageable. Temporary tables can store the results of a query and are disposable. Temporary tables automatically get removed when the active session ends. Using temporary tables is an effective method of creating subsets for ad hoc analysis.
+  
+* Execution Plan: An execution plan shows the details of how a database runs a specific query. Execution plans are extremely helpful in troubleshooting query performance issues. They provide additional information about how a query is spending its time. For example, an execution plan can tell you if a slow-running query uses a full table scan instead of an index scan. In this case, it could be that the query is poorly written and not using the existing indexes. It also could be that a column needs a new index. Looking at execution plans is an integral part of developing efficient queries. It is worth understanding the nuances of how to interpret execution plans for the database platform you use. If you need help understanding an execution plan, get in touch with your local database administrator.
 
 
 
