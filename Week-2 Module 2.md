@@ -359,9 +359,24 @@ While indexing improves query speed, it slows down create, update, and delete ac
 * Execution Plan: An execution plan shows the details of how a database runs a specific query. Execution plans are extremely helpful in troubleshooting query performance issues. They provide additional information about how a query is spending its time. For example, an execution plan can tell you if a slow-running query uses a full table scan instead of an index scan. In this case, it could be that the query is poorly written and not using the existing indexes. It also could be that a column needs a new index. Looking at execution plans is an integral part of developing efficient queries. It is worth understanding the nuances of how to interpret execution plans for the database platform you use. If you need help understanding an execution plan, get in touch with your local database administrator.
 
 
+# Data Quality
 
+## Data Quality Challenges
 
+### Duplicate Data
 
+* Duplicate data occurs when data representing the same transaction is accidentally duplicated within a system.
+* Humans are resposible for creating duplicate data.
+* System architects work diligently to prevent duplicate data from being created.
+* The best way to resolve duplicate data is to prevent its creation in the first place.
+* One common approach to stopping duplicate data before it gets into a system is a visual warning to alert the user.
+* Having multiple data sources for the same data elements is also a source of duplicate data.
+
+### Redundant Data
+
+* Redundant happens when the same data elements exist in multiple places within a system.
+* Data redundancy is a function of integrating multiple systems.
+* Root cause of data redundancy is an in appropriate database design.
 
 
 
