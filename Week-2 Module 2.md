@@ -297,7 +297,64 @@ The ASC keyword at the end of the ORDER BY clause sorts in ascending order where
 ### Date Functions
 
 * Date Columns are frequently found in OLAP environments.
-* Date columns als appear in transactional systems.
+* Date columns also appear in transactional systems.
 * Storing date information about an event facilitates analysis across time.
-* 
+* The most important thing to note is that you have to understand the database platform you are using and how that platform handles dates and times.
+
+### Logical Functions
+
+* Logical functions can make data substitutions when retrieving data.
+* SELECT statement only retrieves data.
+    
+The IFF function has the following syntax:
+
+IFF(boolean_expression, true_value, false_value)
+
+As you can see from the syntax, the IFF function expects the following three parameters:
+
+Boolean Expression:  The expression must return either TRUE or FALSE.
+True Value:  If the Boolean expression returns TRUE, the IFF function will return this value.
+False Value:  If the Boolean expression returns FALSE, the IFF function will return this value.
+
+* IFF is just one example of a logical function. When using logical functions, you need to balance their convenience with the knowledge that you are replacing data from the database with the function's coded values. The ability to do this type of substitution is a real asset when dividing data into categories.
+
+### Aggregate function
+
+* Summarized data helps answer questios that executives have, and aggregate functions are an easy way to summarize data.
+* Aggregate functions summarize a querys data and returns a single value.
+  
+Common SQL aggregate functions:
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/c5421319-6529-433a-a6be-1aa79e592ff6)
+
+* You can also use aggregate functions to filter data.
+* Aggregate functions also operate across subsets of data. For instance, you can calculate total sales by month with a single query.
+
+### System Functions
+
+* Each database platform offers functions tha expose data about itself.
+* One of the most frequently used system functions returns the current date.
+* Current date is a component of transactional records and enables time-based analysis in future.
+* System functions also return data about the database environment.
+
+### Query Optimization
+
+* Writing an SQL query is straightforward.
+* Writing a SQL query that efficiently does what you intend can be more difficult.
+
+Factors to comsider when creating well-perfoming SQL:
+
+* Parametrization: 
+
+
+
+
+
+
+
+
+
+
+
+
 
