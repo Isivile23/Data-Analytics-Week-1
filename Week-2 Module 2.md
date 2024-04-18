@@ -418,6 +418,11 @@ While indexing improves query speed, it slows down create, update, and delete ac
 * Programming languages, including SQL, Python, and R all have data type validation function.
 * Use these functions to validate the data type for each column in a data file before attempting a database load.
 
+## Data Manipulation Techniques
+
+### Recoding Data
+
+
 
 
 
