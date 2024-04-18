@@ -395,6 +395,28 @@ While indexing improves query speed, it slows down create, update, and delete ac
 * If two tables have a relationship but no foreign keys, the conditions for invalid character data exists.
 * Implementing relationships appropriately reduces the likelihood of invalid character data.
 
+### Nonparametric Data
+
+* Nonparametric data is the data collected from categorial variables.
+* Sometimes the categories indicate differentiation, and sometimes they have a rank order associated with them
+
+### Data Outliers
+
+* A data outlier is a value that differs significantly from other observations in a dataset.
+* With outliers you need to understand why they exist and whether they are valid in a context of your analysis.
+* Outliers exist regardless of data type.
+
+### Specification Mismatch
+
+* Specification describes the target value for a component.
+* A specification mismatch occures whn an individual components characteristics are beyond the range of acceptable values.
+* Specification mismatch occurs when data does not conform to its destination data type.
+
+### Data Type Validation
+
+* Data type validation ensures that values in a dataset have a consistent data type.
+* Programming languages, including SQL, Python, and R all have data type validation function.
+* Use these functions to validate the data type for each column in a data file before attempting a database load.
 
 
 
