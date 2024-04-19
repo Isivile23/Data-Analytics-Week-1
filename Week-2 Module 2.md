@@ -481,7 +481,25 @@ Few approaches an analyst can use for imputing values:
 
 ### Reduction
 
+* Reduction is the process of shrinking an extensive dataset without negatively impacting its analytical value.
+* Selectiong a method depends on the types of data you have and what you are trying to analyze.
+* Dimensionality reduction and numerosity reduction are two techniques for data reduction.
 
+#### Dimensionality Reduction
+
+* One reduction technique is dimensionality reduction, which removes attributes from a dataset.
+* Removing attributes reduces the datasets overall size.
+* You can use any programming language, including Python or R, to remove dimensions.
+
+ #### Numerosity Reduction
+
+ * Numerosity reduction reduces the overall volume of data.
+ * As data volume grows, numerosity reduction can improve efficiency of your analysis.
+ * One way to reduce the volume of quantitative data is by creating histogram.
+ * A histogram is a diagram made up of rectangles, or bars, that show how frequently a specific value occurs.
+ * Another approach of reducing the data is through sampling.
+ * Sampling is a technique that selects a subset of individual records from the initial dataset.
+   
 
 
 
