@@ -552,7 +552,19 @@ Few approaches an analyst can use for imputing values:
 * It is essential to consider multiple attributes of data when considering its quality.
 * Six dimensions to take into account when assessing data quality are, accuracy, completeness, consistency, timeliness, uniqueness, and validity.
 
-### Data Quality Rules and Metr
+### Data Quality Rules and Metrics
+
+### Methods to Validate Quality
+
+#### Reasonable Expectation
+
+* One approach is to determine whether or not the data in your analytics environment meets your reasonable expectation.
+* After defining how you want to measure your expectations check by creating exception reports as part of your ETL processes.
+
+#### Data Profiling
+
+* Another approach to improving quality is to profile your data.
+* Data profiling uses statistical measures to check for data 
 
 
 
