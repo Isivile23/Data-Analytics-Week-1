@@ -530,7 +530,29 @@ Few approaches an analyst can use for imputing values:
 * Distributed issue is when data in a single column spreads across multiple columns.
 * When that happens you need to combine the individual columns.
 * Whenever you have composite or distributed structural data issues, you need to manipulate the strings before starting the analysis.
-* You need to manipulate string data to improve data quality. 
+* You need to manipulate string data to improve data quality.
+
+## Managing Data Quality
+
+### Circumstances to Check for Quality
+
+* Data Acqusition
+* Data Transformation and Conversion
+* Data Manipulation
+* Final Product Preparation
+
+### Automated Validation
+
+* One way to prevent data entry mistakes from adversley impacting data quality is to automate data validation checks.
+* Before automatically validating input data, you need to understand how source data fields map to their corresponding database column.
+* When mapping input data, pay close attention to the data types in databases.
+
+### Data Quality Dimension
+
+* It is essential to consider multiple attributes of data when considering its quality.
+* Six dimensions to take into account when assessing data quality are, accuracy, completeness, consistency, timeliness, uniqueness, and validity.
+
+### Data Quality Rules and Metr
 
 
 
