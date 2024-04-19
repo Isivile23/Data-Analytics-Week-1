@@ -450,7 +450,38 @@ While indexing improves query speed, it slows down create, update, and delete ac
 * Business requirements drive the scheduling, such as near real-time, hourly, daily, weekly, monthly, or manually.
 * Typically, an organizations IT department designs, builds, operates, and maintains ETL processes.
 * Data blending differs from ETL in that it allows an analyst to combine datasets in an ad hoc manner without the saving the blended dataset in a relational database.
-* Data blending 
+* Data blending can reduce the burden on IT as it gives analysts the ability to merge data.
+* ETL/ELT connects data at the database layer whereas data blending connects data at the visualization layer.
+
+### Concantenation
+
+* Concantenation is the merging of separate variables into a single variable.
+* Concantenation is a highly effective technique when dealing with a source system that stores components of a single value in multiple columns.
+* The need for concantenation frequently occurs when dealing with date and  time data.
+* Concantenation is useful when generating address information.
+
+### Data Append
+
+* A data append combines multiple data sources with the same structure, resulting in a new dataset containing all the rows from the original dataset.
+* When appending data, you save the result as new dataset for ongoing analysis.
+
+### Imputation
+
+* Imputation is a technique for dealing with missing values by replacing them with substitutes.
+* When merging multiple data sources, you may end up with a dataset with many nulls in a given column.
+* If you are collecting a sensor data, it is possible to have missing values due to collection or transmission issues.
+
+Few approaches an analyst can use for imputing values:
+
+* Remove Missing Data: With this approach, you can move rows with missing values without impacting the quality of your overall analysis.
+* Replace with Zero: With this approach, you replace missing values with zero. Whether or not it is appropriate to replace missing data with a zero is contextual.
+* Replace with Overall Average: Instead of using a zero, you can compute the average for all rows that have data and then replace missing values with the calculated average.
+* Replace with Most Frequent (Mode): Alternatively, you can take the most frequently occuring values called the mode, and use it as a constant.
+* Closest Value Average: With this approach, you use the values from the rows before and after the missing values.
+
+### Reduction
+
+
 
 
 
