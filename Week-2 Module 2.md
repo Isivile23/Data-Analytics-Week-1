@@ -499,7 +499,38 @@ Few approaches an analyst can use for imputing values:
  * A histogram is a diagram made up of rectangles, or bars, that show how frequently a specific value occurs.
  * Another approach of reducing the data is through sampling.
  * Sampling is a technique that selects a subset of individual records from the initial dataset.
-   
+
+##### Aggregation
+
+* Data aggregation is the summarization of raw data for analysis.
+* When dealing with billions of individual records, a data summary can help you make sense of t all.
+* Aggregating data provides answers that help make decisions.
+* Aggregation is also a means of controlling privacy.
+
+##### Transposition
+
+* Transposition data is when you want to turn rows into columns or columns into rows to facilitate analysis.
+* Combining aggregation with transposition is a powerful data manipulation technique.
+
+##### Normalization
+
+* Normalization data converts data from different scales to the same scale.
+* After normalization is complete the data is ready for statistical analysis.
+
+##### Min-Max Normalization
+
+* Min-max Normalization is one of the most straightforward approaches for mormalizing data.
+
+#### Parsing/String Manipulation
+
+* Raw data can contain columns with composite or distributed structural issues.
+* A composite issue is when a raw data source has multiple, distinct values combined within a single character column.
+* When this happens, each value in a composite column has data that represents more than one attribute.
+* Composite columns need to be split into their component parts to aid analysis.
+* Distributed issue is when data in a single column spreads across multiple columns.
+* When that happens you need to combine the individual columns.
+* Whenever you have composite or distributed structural data issues, you need to manipulate the strings before starting the analysis.
+* You need to manipulate string data to improve data quality. 
 
 
 
