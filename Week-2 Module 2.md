@@ -422,7 +422,35 @@ While indexing improves query speed, it slows down create, update, and delete ac
 
 ### Recoding Data
 
+* Recoding data is a technique you can use to map original values for a variable into new values to facilitate analysis.
+* Recoding groups data into multiple categories, creating a categprical variable.
+* A categorical variable is either nominal or ordinal.
+* Nominal variable are any variable with two or more categories where there is no natural order of categories, like hair color or eye color.
+* Ordinal variables are categories with an inherent rank.
+* T-shirt is an example of an ordinal variable, as size come in small, medium, large, and extra large.
+* Recoding is helpful when you have numeric data you want to analyze by category.
 
+### Derived Variables
+
+* Derived variable is a new variable resulting from a calculatio on an existing variable.
+
+### Data Merge
+
+* A data merge use a common variable to combine multiple database with different structures into a single dataset.
+* Merging data improves the quality by adding new variables to your existing data.
+* Additional variables make for a richer dataset, which positively impacts the quality of your analysis.
+* ETL processes commonly append data while transforming data for use in analytical environments.
+* Since a data merge adds columns to a dataset, merging gives you additional data about specific observation.
+
+### Data Blending
+
+* Data blending combines multiple sources of data into a single dataset at the reporting layer.
+* While data blending is conceptually similar to the extract, transform, and load process, there is crucial difference.
+* Recall that ETL processes operate on a schedule, copying data from source systems into analytics environments.
+* Business requirements drive the scheduling, such as near real-time, hourly, daily, weekly, monthly, or manually.
+* Typically, an organizations IT department designs, builds, operates, and maintains ETL processes.
+* Data blending differs from ETL in that it allows an analyst to combine datasets in an ad hoc manner without the saving the blended dataset in a relational database.
+* Data blending 
 
 
 
