@@ -587,6 +587,54 @@ Few approaches an analyst can use for imputing values:
 * You then cross-validate the model using the testing subset to determine how accurate the predition is.
 * Cross-validation is also helpful in identifying data sampling issues.
 
+# Chapter 5: Data Analysis and Statistics
+
+## Fundamentals of Statisctics
+
+* One key concept is the definition of a population. A population represents all the data subjects you want to analyze.
+* Collecting a sample is a cost-effective and time-effective alternative to gathering census data.
+* A sample is a subset of the population.
+* A variable is a unique attribute of a data subject.
+* Univariate analysis is when you explore the characteristics of a single variable, independent of the rest of the dataset.
+*  An observation is an individual record in a dataset corresponding to a tabular data row.
+
+### Common Symbols in Statistics
+
+* Statistics is all about exploring numbers and performing calculations.
+* People use emojis when texting to symbolize emotions. Similarly, statisticians use symbols to convey meaning.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/656bd9ed-c381-4877-8de7-dba2a574acac)
+
+## Descriptive Statistics
+
+* Descriptive statistics is a branch of statistics that summarizes and describes data.
+* As you explore a new dataset for the first time, you want to develop an initial understanding of the size and shape of the data.
+*  You use descriptive statistics as measures to help you understand the characteristics of your dataset.
+* You also use descriptive measures to develop summary information about all of a variable's observations.
+
+### Measures of Frequency 
+
+* Measures of frequency help you understand how often something happens.
+* When encountering a dataset for the first time, you want to determine how much data you are working with to help guide your analysis.
+
+#### Count
+
+* The most straightforward way to understand how much data you're working with is to count the number of observations.
+* Understanding the total number of observations is a frequently performed task.
+* As such, there is a count function in everything from spreadsheets to programming languages.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/a0347db4-6362-4692-9e79-a8676058cab4)
+
+#### Percentage
+
+* The percentage is a frequency measure that identifies the proportion of a given value for a variable with respect to the total number of rows in the dataset.
+* To calculate a percentage, you need the total number of observations and the total number of observations for a specific value of a variable.
 
 
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/665dd7af-e283-4172-a4a6-3d083aec5577)
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/e8b15b65-37df-4f58-a207-c4a56a3c1305)
+
+* Knowing that 51 percent of the sample is female helps you understand that the balance between males and females is pretty even.
+* 
 
