@@ -564,7 +564,29 @@ Few approaches an analyst can use for imputing values:
 #### Data Profiling
 
 * Another approach to improving quality is to profile your data.
-* Data profiling uses statistical measures to check for data 
+* Data profiling uses statistical measures to check for data discrepancies, including values that are missing, that occur either infrequently or too frequently, or that should be eliminated..
+* Profiling can also identify irregular patterns within your data.
+
+#### Data Audits
+
+* Data audits look at your data and help you understand whether or not you have the data you need to operate your business.
+* Data audits use data profiling techniques and can help identify data intergrity and security issues.
+
+#### Sampling
+
+* Another method for validating data quality is by examining a sample of your data.
+* Sampling is a statistical tecnique in which you use a subset of your data to inform conclusions about your overall data.
+
+#### Cross-Validation
+
+* Analysts frequently use existing data to generate predictive models using a variety of statistical methods.
+* Cross validation is statistical technique that evaluates how well predictive models perform.
+* Cross-validation works by dividing data into two subsets.
+* The first subset is the training set, and the second is the testing, or validation set.
+* You use data from training set to build a predictive model.
+* You then cross-validate the model using the testing subset to determine how accurate the predition is.
+* Cross-validation is also helpful in identifying data sampling issues.
+
 
 
 
