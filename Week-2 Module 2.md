@@ -636,5 +636,8 @@ Few approaches an analyst can use for imputing values:
 ![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/e8b15b65-37df-4f58-a207-c4a56a3c1305)
 
 * Knowing that 51 percent of the sample is female helps you understand that the balance between males and females is pretty even.
+
+#### Frequency
+
 * 
 
