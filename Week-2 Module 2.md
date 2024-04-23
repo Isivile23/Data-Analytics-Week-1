@@ -678,6 +678,40 @@ Few approaches an analyst can use for imputing values:
 
 ![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/74ba34ea-4c2c-46ba-8d1a-d94c149ab909)
 
+* The range of a variable is the difference between its maximum and minimum values.
+* Understanding the range helps put the data you are looking at into context and can help you determine what to do with outlier values.
+* It can also identify invalid values in your data.
+* Spreadsheets and programming languages have functions available to identify minimum and maximum values.
 
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/ab82276d-5e86-44e3-9995-6d0af81ba8ae)
+
+* In statistics, a probability distribution, or distribution, is a function that illustrates probable values for a variable, and the frequency with which they occur.
+* Histograms are an effective tool to visualize a distribution, because the shape provides additional insight into your data and how to proceed with analysis.
+* Distributions have many possible shapes, including normal, skewed, and bimodal.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/e052e78c-0177-4ef9-9c31-b06c20ae1495)
+
+* The normal distribution is symmetrically dispersed around its mean, which gives it a distinctive bell-like shape.
+* Due to its shape, the normal distribution is also known as a “bell curve".
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/d522b6e1-8d31-4c6b-9ad2-9a7810839943)
+
+* A skewed distribution has an asymmetrical shape, with a single peak and a long tail on one side. Skewed distributions have either a right (positive) or left (negative) skew.
+* When the skew is to the right, the mean is typically greater than the median. On the other hand, a distribution with a left skew typically has a mean less than the median.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/de14de77-c653-4f85-b8a4-b48c0969ac04)
+
+* A bimodal distribution has two distinct modes, whereas a multimodal distribution has multiple distinct modes. When you visualize a bimodal distribution, you see two separate peaks.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/b9d04894-c1a7-4730-b5c6-07ec2daf54cf)
+
+* Variance is a measure of dispersion that takes the values for each observation in a dataset and calculates how far away they are from the mean value. This dispersion measure indicates how spread out the data is in squared units. Mathematically,  signifies population variance, which you calculate by taking the average squared deviation of each value from the mean, as follows:
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/d46fbef9-8b52-48e8-9b38-60d222d5758f)
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/2d579020-1d35-49b9-9125-805a3f753118)
+
+* Standard deviation is a statistic that measures dispersion in terms of how far values of a variable are from its mean. Specifically, standard deviation is the average deviation between individual values and the mean.
+* Mathematically,  signifies population standard deviation, which you calculate by taking the square root of the variance, as follows:
 
 
