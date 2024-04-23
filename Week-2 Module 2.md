@@ -639,5 +639,45 @@ Few approaches an analyst can use for imputing values:
 
 #### Frequency
 
-* 
+* Frequency describes how often a specific value for a variable occurs in a dataset. You typically explore frequency when conducting univariate analysis.
+
+  ![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/43d24915-7d4f-401f-8e46-01dc2c5bcfd4)
+
+### Measures of Central Tendency
+
+* To help establish an overall perspective on a given dataset, an analyst explores various measures of central tendency.
+*  You use measures of central tendency to identify the central, or most typical, value in a dataset.
+*  There are numerous ways to measure central tendency, and you end up using them in conjunction with each other to understand the shape of your data.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/2c592433-3971-4b24-ab9c-1470412e22bf)
+
+* The mean, or average, is a measurement of central tendency that computes the arithmetic average for a given set of numeric values.
+* To calculate the mean, you take the sum of all values for an observation and divide by the number of observations.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/262f3fe2-467c-4218-87d0-5270288c49a6)
+
+* Although the formula for calculating the sample mean looks slightly different, the process is the same. You sum all sample observations for a variable and then divide by the number of observations:
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/dcef51b8-7108-435f-b180-5d8466204298)
+
+* Data analysis tools, including spreadsheets, programming languages, and visualization tools, all have functions that calculate the mean.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/93c44fdb-ef7f-4a06-a80c-fdb528730560)
+
+* Another measurement of central tendency is the median, which identifies the midpoint value for all observations of a variable.
+* The first step to calculating the median is sorting your data numerically.
+* Once you have an ordered list of values, the next step depends on whether you have an even or an odd number of observations for a variable.
+
+ ![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/0ccb1254-b585-4a33-8eac-96534c5290a2)
+
+* The mode is a variable's most frequently occurring observation. Depending on your data, you may not have a mode.
+
+### Measures of Dispersion
+
+* In addition to central tendency, it is crucial to understand the spread of your data. You use measures of dispersion to create context around data spread. Let's explore five common measures of dispersion.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/74ba34ea-4c2c-46ba-8d1a-d94c149ab909)
+
+
+
 
