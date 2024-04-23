@@ -714,4 +714,56 @@ Few approaches an analyst can use for imputing values:
 * Standard deviation is a statistic that measures dispersion in terms of how far values of a variable are from its mean. Specifically, standard deviation is the average deviation between individual values and the mean.
 * Mathematically,  signifies population standard deviation, which you calculate by taking the square root of the variance, as follows:
 
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/f0d1c524-2863-4165-8caa-5cb6654d326d)
 
+### Each Sample is Unique
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/60f6284d-ccfa-4de1-a320-fbb3fb72a8aa)
+
+*The Central Limit Theorem and empirical rule combine to make the normal distribution the most important distribution in statistics. There are two special normal distributions that have broad applicability and warrant a deeper understanding.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/7ed8859b-a9e6-4a37-9366-30c010585274)
+
+* The standard normal distribution, or Z-distribution, is a special normal distribution with a mean of 0 and a standard deviation of 1. You can standardize any normal distribution by converting its values into Z-scores. Converting to the standard normal lets you compare normal distributions with different means and standard deviations.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/9d038cf3-dd77-442b-9196-97eb405607b9)
+
+*The Student's t-distribution, commonly known as the t-distribution, is similar to the standard normal distribution in that it has a mean of 0 with a bell-like shape. One way the t-distribution differs from the standard normal distribution is how thick the tails are since you can use the t-distribution for sample sizes of less than 30. 
+
+### Measures of Position
+
+* Understanding a specific value for a variable relative to the other values for that variable gives you an indication of the organization of your data.
+* Statisticians commonly use quartiles to describe a specific observation's position.
+* The process of obtaining quartiles is similar to that of determining the median. You first sort a numeric dataset from smallest to largest and divide it positionally into four equal groups. Each grouping is known as a quartile.
+* The first quartile is the group that starts with the minimum value, whereas the fourth quartile is the group that ends with the maximum value.
+
+## Inferential Statistics
+
+* Inferential statistics is a branch of statistics that uses sample data to draw conclusions about the overall population.
+
+### Confidence Intervals
+
+* Each time you take a sample from a population, the statistics you generate are unique to the sample.
+* In order to make inferences about the population as a whole, you need a way to come up with a range of scores that you can use to describe the population as a whole.
+* A confidence interval describes the possibility that a sample statistic contains the true population parameter in a range of values around the mean.
+* When calculating a confidence interval, you end up with a lower bound value and an upper bound value. Given the confidence interval range, the lower bound is the lower limit, and the upper bound is the upper limit.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/2a4d9920-42d2-43d0-b171-4bb00e9dfe86)
+
+* While it is possible to develop a confidence interval for a skewed distribution, our conversation will focus on a normal distribution and presume the sample mean, population standard deviation, and sample size are known.
+* When calculating a confidence interval, you need to specify the confidence level in addition to the sample mean, population standard deviation, and sample size.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/6f84c2dc-822d-4709-b90f-e0ed00172800)
+
+* When calculating confidence intervals, you need to have the standard deviation of the entire population. However, since getting measures about the whole population is challenging, the population standard deviation is likely unknown. In that case, while it's more precise to use the t-distribution, if your sample size is greater than 30, it's reasonable to use the normal distribution and substitute the sample standard deviation as follows:
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/7b517ca5-e361-438c-877d-e13bbdd8718e)
+
+### Hypothesis Testing
+* Data analysts frequently need to build convincing arguments using data. One of the approaches to proving or disproving ideas is hypothesis testing. A hypothesis test consists of two statements, only one of which can be true. It uses statistical analysis of observable data to determine which of the two statements is most likely to be true.
+* A hypothesis test consists of two components: the null hypothesis and the alternative hypothesis.
+*  A null hypothesis (H0) presumes that there is no effect on the test you are conducting.
+*  When hypothesis testing, your default assumption is that the null hypothesis is valid and that you have to have evidence to reject it.
+*  The alternative hypothesis (Ha) presumes that the test you are conducting has an effect. The alternative hypothesis for the airline pricing example is that people over 75 inches are willing to pay more for more legroom. The ultimate goal is to assess whether the null hypothesis is valid or if there is a statistically significant reason to reject the null hypothesis.
+*  To determine the statistical significance of whether to accept or reject the null hypothesis, you need to compare a test statistic against a critical value.
+*  A test statistic is a single numeric value that describes how closely your sample data matches the distribution of data under the null hypothesis.
