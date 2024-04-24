@@ -792,3 +792,6 @@ Few approaches an analyst can use for imputing values:
 * Simple linear regression has many applications. For example, you might use simple linear regression to assess the impact of a marketing promotion on a company's sales. In healthcare, you might explore the relationship between a person's age and body mass index (BMI).
 
 ### From Simple to Multiple Linear Regression
+
+* Note that you explore the relationship between two variables using simple linear regression. Multiple linear regression builds on that concept by examining the effect of numerous independent variables on a dependent variable.
+* A crucial aspect of linear regression is the correlation between how far the observations are from the regression line. Correlation is a measurement of how well the regression line fits the observations. The correlation coefficient (r) ranges between –1 and 1 and indicates the strength of the correlation. The stronger the correlation, the more tightly the points wind around the line of best fit. Perfect correlation is when r has a value of either –1 or 1, implying that every data point falls directly on the regression line. Interpreting correlation strength depends on the industry.
