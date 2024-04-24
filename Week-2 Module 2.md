@@ -767,3 +767,8 @@ Few approaches an analyst can use for imputing values:
 *  The alternative hypothesis (Ha) presumes that the test you are conducting has an effect. The alternative hypothesis for the airline pricing example is that people over 75 inches are willing to pay more for more legroom. The ultimate goal is to assess whether the null hypothesis is valid or if there is a statistically significant reason to reject the null hypothesis.
 *  To determine the statistical significance of whether to accept or reject the null hypothesis, you need to compare a test statistic against a critical value.
 *  A test statistic is a single numeric value that describes how closely your sample data matches the distribution of data under the null hypothesis.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/5d1a45b8-6d78-4e7b-b35e-b29a2bc53484)
+
+* Hypothesis testing with the Z-test is appropriate when you have a sample size over 30 and a known population standard deviation, and you are using the normal distribution.
+* 
