@@ -795,3 +795,29 @@ Few approaches an analyst can use for imputing values:
 
 * Note that you explore the relationship between two variables using simple linear regression. Multiple linear regression builds on that concept by examining the effect of numerous independent variables on a dependent variable.
 * A crucial aspect of linear regression is the correlation between how far the observations are from the regression line. Correlation is a measurement of how well the regression line fits the observations. The correlation coefficient (r) ranges between –1 and 1 and indicates the strength of the correlation. The stronger the correlation, the more tightly the points wind around the line of best fit. Perfect correlation is when r has a value of either –1 or 1, implying that every data point falls directly on the regression line. Interpreting correlation strength depends on the industry.
+
+## Analysis Techniques
+
+### Determine Type of Analysis
+
+* When embarking on a new analytics challenge, you need to understand the business objectives and desired outcomes. This understanding informs the type of analysis you will conduct. The first step to understanding the objectives is to ensure that you have clarity on the business questions at hand. Recall that the goal of answering a business question is to develop an insight that informs a business decision.
+
+### Types of Analysis
+
+### Exploratory Data Analysis
+
+At the onset of your analysis, you will encounter many datasets for the first time. When first exploring a dataset, it's a good idea to perform an exploratory data analysis. An exploratory data analysis (EDA) uses descriptive statistics to summarize the main characteristics of a dataset, identify outliers, and give you context for further analysis. 
+
+While there are many approaches to conducting an EDA, they typically encompass the following steps:
+
+* Check Data Structure:  Ensure that data is in the correct format for analysis. Most analysis tools expect data to be in a tabular format, so you need to confirm that your data has defined rows and columns.
+  
+* Check Data Representation:  Become familiar with the data. In this step, you validate data types and ensure that variables contain the data you expect.
+  
+* Check if Data Is Missing:  Check to see if any data is missing from the dataset and determine what to do next. While checking for null values, calculate the proportion of each variable that is missing. If you discover that most of the data you need is missing, you need to either categorize it as missing or impute a value for the missing data. You can also go back to the source and remediate any data extraction issues.
+  
+* Identify Outliers:  Recall from Chapter 4 that an outlier is an observation of a variable that deviates significantly from other observations of that variable. As shown in this chapter, outliers can dramatically impact some descriptive statistics, like the mean. It would be best to determine the cause of outliers and consider whether you want to leave them in the data before proceeding with any ongoing analysis.
+  
+* Summarize Statistics:  Calculate summary statistics for each variable. For numeric variables, examples of summary statistics include mean, median, and variance. For categorical data like eye colour, you could develop a table showing the frequency with which each observation occurs.
+  
+* Check Assumptions:  Depending on the statistical method you are using, you need to understand the shape of the data. For example, if you are working with numeric data, you should choose a normal or t-distribution for drawing inferences. If you are working with categorical data, use the chi-square distribution.
