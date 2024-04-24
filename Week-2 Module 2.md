@@ -771,4 +771,24 @@ Few approaches an analyst can use for imputing values:
 ![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/5d1a45b8-6d78-4e7b-b35e-b29a2bc53484)
 
 * Hypothesis testing with the Z-test is appropriate when you have a sample size over 30 and a known population standard deviation, and you are using the normal distribution.
-* 
+
+  ![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/08bcf346-3f6f-4d31-8ee9-04a8995f2096)
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/0e6ed64c-7669-465a-b81e-3383d9b65b22)
+
+* Frequently, the standard deviation of the population is unknown. It's also possible that you will have a sample size of less than 30. In either of those cases, the Z-test is not an option. In this case, you can perform a t-test. A t-test is conceptually similar to a Z-test, but uses the t-distribution instead of the standard normal distribution. You interpret the results of a t-test the same way you interpret a Z-test in terms of critical regions, confidence levels, and p-values.
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/cc4bc2de-07b9-4d54-9244-0e4627a69a83)
+
+![image](https://github.com/Isivile23/Data-Analytics-Week-1/assets/162969923/4b7c469c-412f-4f17-8a91-82be8ea8cbe7)
+
+* Z-tests and t-tests work well for numeric data. However, there are times when you want to compare the observed frequencies of categorical variables against what was expected. The chi-square test is available when you need to assess the association of two categorical variables. In this case, the null hypothesis asserts that there is no association between the variables, and the alternative hypothesis states that there is an association between them.
+
+### Simple Linear Regression
+
+* Simple linear regression is an analysis technique that explores the relationship between an independent variable and a dependent variable.
+* You can use linear regression to identify whether the independent variable is a good predictor of the dependent variable. You can perform a regression analysis in spreadsheets like Microsoft Excel and programming languages, including Python and R.
+* When plotting the results of a regression, the independent variable is on the x-axis and the dependent variable is on the y-axis.
+* Simple linear regression has many applications. For example, you might use simple linear regression to assess the impact of a marketing promotion on a company's sales. In healthcare, you might explore the relationship between a person's age and body mass index (BMI).
+
+### From Simple to Multiple Linear Regression
