@@ -879,3 +879,26 @@ While there are many approaches to conducting an EDA, they typically encompass t
 * The INSERT command is used to add new records to a database table. If you are adding a new employee, customer order, or marketing activity, the INSERT command allows you to add one or more rows to your database.
 * The UPDATE command is used to modify rows in the database. If you need to change something that is already stored in your database, the UPDATE command will do that.
 * The DELETE command is used to delete rows from a database table. Don't confuse this command with the DROP command. The DROP command deletes an entire database table, whereas the DELETE command just deletes certain rows from the table.
+
+## Statistic Packages
+
+### IBM SPSS
+
+* One of the most popular pieces of statistical software is IBM's SPSS package.
+* SPSS is one of the oldest statistical software packages, first released in 1968, but it continues to be used today by many statisticians.
+
+### Stata
+
+* Stata is yet another statistical analysis package that dates back to the 1980s and continues to be updated today.
+* It offers essentially the same features as SPSS and SAS and provides users with both a graphical interface and a command-line interface depending on their personal preference.
+* Stata is less widely used than the more popular SAS and SPSS tools.
+
+### Minitab
+
+* The final statistical software package covered on the Data+ exam is Minitab.
+* And, once again, Minitab shares most of the same features as SPSS, SAS, and Stata but fits into the same category as Stata - an older tool that is not widely used today. 
+
+## Machine Learning
+
+
+  
