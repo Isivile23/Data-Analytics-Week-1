@@ -156,3 +156,4 @@ The major products offered by Qlik include the following:
 * BusinessObjects is an enterprise reporting tool from SAP that is designed to provide a comprehensive reporting and analytics environment for organizations.
 * One of the strengths of this suite is the ability to integrate BusinessObjects reports with other applications, allowing organizations to integrate analytics into other portions of their workflow.
 
+# Chapter 7: Data Visualization with Reports and Dashboards
