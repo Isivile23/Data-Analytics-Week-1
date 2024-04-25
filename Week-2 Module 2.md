@@ -900,5 +900,15 @@ While there are many approaches to conducting an EDA, they typically encompass t
 
 ## Machine Learning
 
+* Moving on from statistics-focused tools, the industry also makes use of a set of graphical tools designed to help analysts build machine learning models without requiring them to actually write the code to do so.
+* These machine-learning tools aim to make machine-learning techniques more accessible. Analysts may still tune the parameters of their models but do not necessarily need to write scripts to do so.
 
-  
+### IBM SPSS Modeler 
+
+* IBM's SPSS Modeler is one popular tool for building graphical machine learning models.
+* Instead of requiring that users write code, it provides an intuitive interface where analysts can select the tasks that they would like the software to carry out and then connect them in a flowchart-style interface.
+
+### RapidMiner
+
+* RapidMiner is another graphical machine learning tool that works in a manner similar to IBM SPSS Modeler.
+* It offers access to hundreds of different algorithms that may be placed in a visually designed machine-learning workflow. 
