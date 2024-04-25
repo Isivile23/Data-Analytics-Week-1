@@ -911,4 +911,10 @@ While there are many approaches to conducting an EDA, they typically encompass t
 ### RapidMiner
 
 * RapidMiner is another graphical machine learning tool that works in a manner similar to IBM SPSS Modeler.
-* It offers access to hundreds of different algorithms that may be placed in a visually designed machine-learning workflow. 
+* It offers access to hundreds of different algorithms that may be placed in a visually designed machine-learning workflow.
+
+## Analytics Suite 
+
+### IBM Cognos
+
+
