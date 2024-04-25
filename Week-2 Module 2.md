@@ -821,3 +821,61 @@ While there are many approaches to conducting an EDA, they typically encompass t
 * Summarize Statistics:  Calculate summary statistics for each variable. For numeric variables, examples of summary statistics include mean, median, and variance. For categorical data like eye colour, you could develop a table showing the frequency with which each observation occurs.
   
 * Check Assumptions:  Depending on the statistical method you are using, you need to understand the shape of the data. For example, if you are working with numeric data, you should choose a normal or t-distribution for drawing inferences. If you are working with categorical data, use the chi-square distribution.
+
+# Chapter 6: Data Analytics Tools
+
+## Spreadsheets
+
+* The spreadsheet is the most widely used tool in the world of analytics.
+* It is hard to imagine anyone who does not use spreadsheets as part of their work because they provide an intuitive way to organize our data into rows and columns.
+* Spreadsheet software is installed on pretty much every computer in the modern work environment, and web-based spreadsheets are freely available to anyone.
+* Spreadsheets are productivity software packages that allow users to create documents that organize any type of data into rows and columns.
+* Users may place any data they like in the spreadsheet and then quickly and easily perform mathematical calculations, such as finding the sum of the values in a row or searching out the minimum, maximum, mean, and median values in a dataset.
+* Spreadsheets lack any of the constraints of a relational database.
+* While you can certainly organize data in a spreadsheet, there's no requirement that you do so.
+* If you'd like, you can mix numbers, text, dates, and other data elements all in the same column. That does, of course, reduce the usefulness of the spreadsheet, but the user of spreadsheet software has total flexibility in how they organize their data.
+
+### Microsoft Excel
+
+* Microsoft Excel is the most commonly used desktop spreadsheet application. It is available as a component of the widely deployed Microsoft Office productivity suite and most modern knowledge workers have access to it.
+* As with any spreadsheet, you can store data of any kind in an Excel spreadsheet.
+
+## Programming Languages
+
+* Programming languages allow skilled software developers to write their own instructions to the computer, allowing them to directly specify the actions that should take place during the analytics process.
+
+### R
+
+* The R programming language is extremely popular among data analysts because it is focused on creating analytics applications. R originally appeared in the 1990s as a statistical programming language that was popular among a niche audience. More than two decades later, the language has evolved into one of the most popular languages used by statisticians, data scientists, and business analysts around the world.
+* R gained rapid traction as a popular language for several reasons. First, it is available to everyone as a free, open-source language developed by a community of committed developers. This approach broke the mold of past approaches to analytic tools that relied on proprietary, commercial software that was often out of the financial reach of many individuals and organizations.
+* R also continues to grow in popularity because of its adoption by the creators of machine learning methods. Almost any new machine learning technique created today quickly becomes available to R users in a redistributable package, offered as open-source code on the Comprehensive R Archive Network (CRAN), a worldwide repository of popular R code.
+* One of the most important advances in the R language was the creation of a set of R packages known as the tidyverse by Hadley Wickham and other developers. The tidyverse approach to data analysis simplifies the use of the language and makes it accessible to anyone willing to invest a few hours in learning some basic syntax.
+
+### Python
+
+* Python is arguably the most popular programming language in use today.
+* Python is about the same age as R, but the major difference between Python and R is that Python is a general-purpose programming language.
+* This means that it is capable of creating software to meet just about any need you might imagine.
+* You can do everything from code a video game to perform a complex data analysis in Python.
+* With that flexibility, however, comes some complexity. While R is quite popular because of its ease of use, writing software in Python requires some more expertise. Python developers usually have a more formal background in computer science and are familiar with many coding concepts, such as looping and branching, that aren't necessary in most R code.
+* Python also has specialized libraries that focus on the needs of analysts and data scientists.
+* In particular, the Python Data Analysis Library (pandas) provides a set of tools for structuring and analyzing data.
+
+### Structured Query Language (SQL)
+
+* The Structured Query Language (SQL) is the language of databases.
+* Any time a developer, administrator, or end user interacts with a database, that interaction happens through the use of a SQL command.
+* SQL is divided into two major sublanguages:
+   * The Data Definition Language (DDL) is used mainly by developers and administrators. It's used to define the structure of the database itself. It doesn't work with the data inside a database, but it sets the ground rules for the database to function.
+   * The Data Manipulation Language (DML) is the subset of SQL commands that are used to work with the data inside of a database. They do not change the database structure, but they add, remove, and change the data inside a database
+
+* There are three DDL commands that you should know:
+* The CREATE command is used to create a new table within your database or a new database on your server.
+* The ALTER command is used to change the structure of a table that you've already created. If you want to modify your database or table, the ALTER command lets you make those modifications.
+* The DROP command deletes an entire table or database from your server. It's definitely a command that you'll want to use with caution!
+
+* There are also four DML commands that you should know:
+* The SELECT command is used to retrieve information from a database. It is the most commonly used command in SQL as it is used to pose queries to the database and retrieve the data that you're interested in working with.
+* The INSERT command is used to add new records to a database table. If you are adding a new employee, customer order, or marketing activity, the INSERT command allows you to add one or more rows to your database.
+* The UPDATE command is used to modify rows in the database. If you need to change something that is already stored in your database, the UPDATE command will do that.
+* The DELETE command is used to delete rows from a database table. Don't confuse this command with the DROP command. The DROP command deletes an entire database table, whereas the DELETE command just deletes certain rows from the table.
