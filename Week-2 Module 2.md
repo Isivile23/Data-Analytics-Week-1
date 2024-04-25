@@ -917,4 +917,65 @@ While there are many approaches to conducting an EDA, they typically encompass t
 
 ### IBM Cognos
 
+IBM Cognos is an example of one of these integrated analytics suites.  It uses a web-based platform to offer analysts within an organization access to their data and is backed by IBM's Watson artificial intelligence capability. 
 
+The major components of Cognos include the following:
+
+* Cognos Connection is a web-based portal that offers access to other elements of the Cognos suite.
+* Query Studio provides access to data querying and basic reporting tools.
+* Report Studio offers advanced report design tools for complex reporting needs.
+* Analysis Studio enables advanced modeling and analytics on large datasets.
+* Event Studio provides real-time data monitoring and alerting, allowing business leaders to be immediately notified when certain events take place and/or provide automated responses to those events.
+* Metric Studio offers the ability to create scorecards for business leaders to quickly analyze key metrics from across the organization.
+* Cognos Viewer allows stakeholders to easily interact with data and analyses prepared using Cognos.
+
+### Microsoft Power BI
+
+Power BI is Microsoft's analytics suite built on the company's popular SQL Server database platform.
+Power BI is popular among organizations that make widespread use of other Microsoft software because of its easy integration with those packages and cost-effective bundling within an organization's Microsoft enterprise license agreement.
+
+The major components of Power BI include the following:
+
+* Power BI Desktop is a Windows application for data analysts, allowing them to interact with data and publish reports for others.
+* The Power BI service is Microsoft's software-as-a-service (SaaS) offering that hosts Power BI capabilities in the cloud for customers to access.
+* Mobile apps for Power BI provide users of iOS, Android, and Windows devices with access to Power BI capabilities.
+* Power BI Report Builder allows developers to create paginated reports that are designed for printing, email, and other distribution methods.
+* Power BI Report Server offers organizations the ability to host their own Power BI environment on internal servers for stakeholders to access.
+
+### MicroStrategy
+
+* MicroStrategy is an analytics suite that is less well-known than similar tools from IBM and Microsoft, but it does have a well-established user base.
+* MicroStrategy offers many of the same tools as its counterparts, making it easy for users to build dashboards and reports and apply machine learning techniques to their business data.
+
+### Domo
+
+* Domo is a software-as-a-service (SaaS) analytics platform that allows businesses to ingest their data and apply a variety of analytic and modeling capabilities.
+* It is not a very widely used tool, but knowledge of it is included in the objectives for the Data+ exam.
+
+### Datorama
+
+* Salesforce Datorama is an analytics tool that focuses on a specific component of an organization's business: sales and marketing.
+* It's not a general-purpose analytics tool but is instead focused on applying machine learning, visualization, and other analytics techniques to the sales and marketing process.
+
+### AWS QuickSight
+
+* AWS QuickSight is a dashboarding tool available as part of the Amazon Web Services cloud offering.
+* This tool's power comes from the fact that it is available on a pay-as-you-go basis and its integration with the powerful data storage, data warehousing, machine learning, and artificial intelligence capabilities offered by the Amazon cloud.
+
+### Tableau
+
+* Tableau is arguably the most popular data visualization tool available in the market today.
+* The focus of this tool is on the easy ingestion of data from a wide variety of sources and powerful visualization capabilities that allow analysts and business leaders to quickly identify trends in their data and drill down into specific details.
+
+### Qlik
+
+* Qlik is another popular SaaS analytics platform, offering access to cloud-based analytics capabilities.
+The major products offered by Qlik include the following:
+
+* QlikView is the company's original analytics platform that focuses on providing rapid insights.
+* Qlik Sense is a more advanced platform providing more sophisticated analytics capabilities (at a higher cost, of course!).
+
+### BusinessObjects
+
+* BusinessObjects is an enterprise reporting tool from SAP that is designed to provide a comprehensive reporting and analytics environment for organizations.
+* One of the strengths of this suite is the ability to integrate BusinessObjects reports with other applications, allowing organizations to integrate analytics into other portions of their workflow.
